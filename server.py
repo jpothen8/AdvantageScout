@@ -20,7 +20,7 @@ import scheduler
 from svelte_interface import SvelteInterface
 
 # Config
-our_team = 6328
+our_team = 449
 default_port = 8000  # can override w/ command line argument
 admin_socket_port = 8001  # port for admin web socket
 forward_socket_port = 8002  # port for forwarding server
@@ -31,7 +31,7 @@ bt_ports_outgoing = ["COM4", "COM5", "COM6", "COM7",
                      "COM8", "COM9"]  # current implementation
 bt_showheartbeats = True
 tba = tbapy.TBA(
-    "KDjqaOWmGYkyTSgPCQ7N0XSezbIBk1qzbuxz8s5WfdNtd6k34yL46vU73VnELIrP")
+    "L2YESFXVJhD0y1Tp2J4LCKzM6Jrv8sswfvfZolZX7HiXgLJAO642M2U895OYl5q5")
 schedule_total_priority = 0.5  # weight to apply to total when scheduling
 message_expiration = 60  # secs after sending before message expires
 db_global = "global.db"  # database for data not tied to specific games
